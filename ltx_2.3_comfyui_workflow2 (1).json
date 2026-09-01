@@ -420,7 +420,7 @@
         0
       ],
       "upscale_method": "lanczos",
-      "keep_proportion": "crop",
+      "keep_proportion": "resize",
       "pad_color": "0, 0, 0",
       "crop_position": "center",
       "divisible_by": 32,
@@ -455,7 +455,7 @@
   },
   "189": {
     "inputs": {
-      "model_name": null
+      "model_name": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors"
     },
     "class_type": "LatentUpscaleModelLoader",
     "_meta": {
@@ -641,7 +641,7 @@
   },
   "345": {
     "inputs": {
-      "unet_name": "sulphur_dev-Q6_K.gguf — HuggingFace"
+      "unet_name": "sulphur_dev-Q6_K.gguf"
     },
     "class_type": "UnetLoaderGGUF",
     "_meta": {
@@ -650,7 +650,7 @@
   },
   "346": {
     "inputs": {
-      "clip_name1": "gemma-3-12b-it-abliterated.q4_k_m.gguf — HuggingFace",
+      "clip_name1": "gemma-3-12b-it-abliterated.q4_k_m.gguf",
       "clip_name2": "ltx-2.3-22b-dev_embeddings_connectors.safetensors",
       "type": "ltxv"
     },
