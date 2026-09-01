@@ -2458,8 +2458,8 @@
       "widgets_values": [
         512,
         512,
-        "lanczos",
-        "crop",
+        "nearest-exact",
+        "resize",
         "0, 0, 0",
         "center",
         32,
